@@ -1,0 +1,28 @@
+{
+    "name": "syuumu200/discord-oauth2-login-url",
+    "autoload": {
+        "psr-4": {
+            "Syuumu200\\DiscordOauth2LoginUrl\\": "src/"
+        },
+        "files": [
+            "src/DiscordOauth2LoginUrl.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "syuumu",
+            "email": "syuumu200@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0|^8.0",
+        "laravel/framework": "^7.3|^8.0|^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Syuumu200\\DiscordOauth2LoginUrl\\DiscordOauth2LoginUrlServiceProvider"
+            ]
+        }
+    }
+}
